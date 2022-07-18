@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  const number = int.parse(args[0]);
+  var number = int.parse(args[0]);
 
   if (number > 0) {
     print("$number is positive");
