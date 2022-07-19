@@ -6,7 +6,7 @@ bool isPalindrome(String s) {
   for (var i = s.length - 1; i >= 0; i--) {
 	reverse += s[i];
   }
-  if (reverse = s)
+  if (reverse == s)
     return true;
   else
     return false;
