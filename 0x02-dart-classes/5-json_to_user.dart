@@ -1,11 +1,15 @@
 import 'dart:io';
 
 class User {
-  User({required this.id, required this.name, required this.age, required this.height});
+  User(
+	{int? this.id,
+	required this.name,
+	required this.age,
+	required this.height});
   String name;
   int age;
   double height;
-  int id = 0;
+  int? id;
 
   Map toJson() {
 	return {"id": id, "name": name, "age": age, "height": height};
