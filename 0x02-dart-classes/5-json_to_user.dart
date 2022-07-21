@@ -1,3 +1,5 @@
+import "dart:io";
+
 class User {
   User(
 	{int? this.id,
@@ -21,7 +23,7 @@ class User {
 	  height: userJson['height']);
   }
 
-  String toString() {
-    return "User(id : $id ,name: $name, age: $age, height: $height)";
+  void toString() {
+    return stdout.write"User(id : $id ,name: $name, age: $age, height: $height)";
   }
 }
