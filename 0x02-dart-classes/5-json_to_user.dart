@@ -14,10 +14,10 @@ class User {
 	  id: userJson['id'],
 	  name: userJson['name'],
 	  age: userJson['age'],
-	  height: userJson['height'],
+	  height: userJson['height']
 	);
   }
 
   @override
-  String toString() => "User(id : $id ,name: $name, age: $age, height: $height)\"";
+  String toString() => 'User(id : $id ,name: $name, age: $age, height: $height)';
 }
