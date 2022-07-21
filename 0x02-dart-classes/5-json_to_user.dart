@@ -1,5 +1,3 @@
-import 'dart:io';
-
 class User {
   User(
 	{int? this.id,
@@ -20,8 +18,7 @@ class User {
 	  id: userJson['id'],
 	  name: userJson['name'],
 	  age: userJson['age'],
-	  height: userJson['height']
-	);
+	  height: userJson['height']);
   }
 
   @override
