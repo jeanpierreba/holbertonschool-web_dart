@@ -23,7 +23,7 @@ class User {
 	  height: userJson['height']);
   }
 
-  void toString() {
+  String toString() {
     return stdout.write"User(id : $id ,name: $name, age: $age, height: $height)";
   }
 }
