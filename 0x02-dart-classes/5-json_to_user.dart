@@ -21,5 +21,7 @@ class User {
   }
 
   @override
-  String toString() => stdout.write('User(id : $id ,name: $name, age: $age, height: $height)');
+  String toString() {
+	return stdout.write('User(id : $id ,name: $name, age: $age, height: $height)');
+  }
 }
