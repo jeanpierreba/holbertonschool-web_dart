@@ -23,6 +23,7 @@ class User {
 	  height: userJson['height']);
   }
 
+  @override
   String toString() {
     var message = 'User(id : $id ,name: $name, age: $age, height: $height)';
 	return message;
