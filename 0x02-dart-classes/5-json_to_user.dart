@@ -24,6 +24,7 @@ class User {
   }
 
   String toString() {
-    return stdout.write("User(id : $id ,name: $name, age: $age, height: $height)");
+    var message = 'User(id : $id ,name: $name, age: $age, height: $height)';
+	return message;
   }
 }
